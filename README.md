@@ -1,30 +1,8 @@
 # Projekt 4 - Recommender Systems
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Recomender-Systems/main?filepath=Recommender%20Systems%20-%20Projekt%204.ipynb)
 
-**Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
--> %conda install pandas 
--> %conda install numpy
--> %conda install sqlalchemy 
--> %conda install lxml
--> %conda install openpyxl 
--> %conda install xlrd 
--> %conda install matplotlib 
--> %conda install seaborn 
--> %conda install scikit-learn - sklearn
---> %conda install pydot
---> %conda install graphviz
---> %pip install pydot
---> %pip install graphviz
---> %pip install six
 
-**Zu Beginn des Notebooks, werden die installierten Librarys wie folgt importiert:**
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline
-
-**Danach erfolgt die Defintion von Spaltennamen:**
+**Zu Beginn erfolgt die Defintion von Spaltennamen:**
 column_names = ["user_id","item_id","rating","timestamp"]
 **Die Daten werden nun importiert,als DataFrame mit den vorab definierten Spaltennamen abgespeichert und das Head wird angezeigt:**
 df= pd.read_csv("U.data", sep="\t",names=column_names)
