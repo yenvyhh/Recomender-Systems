@@ -1,5 +1,5 @@
 # Projekt 4 - Recommender Systems
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Recomender-Systems/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Recomender-Systems/main?filepath=Recommender%20Systems%20-%20Projekt%204.ipynb)
 
 **Um die Librarys in das Notebook zu importieren, müssen zu Beginn folgende Installationen einmalig durchgeführt werden (wenn für die vorherigen Übungen bereits getan, dann ignorieren):**
 -> %conda install pandas 
