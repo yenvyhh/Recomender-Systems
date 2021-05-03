@@ -1,6 +1,7 @@
 # Projekt 4 - Recommender Systems
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yenvyhh/Recomender-Systems/main?filepath=Recommender%20Systems%20-%20Projekt%204.ipynb)
 
+**Zu Beginn bitte unter "Cell" -> "Run All" auswählen.**
 
 **Zu Beginn erfolgt die Defintion von Spaltennamen:**
 column_names = ["user_id","item_id","rating","timestamp"]
